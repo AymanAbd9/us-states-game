@@ -29,6 +29,9 @@ while len(guessed_states) < 50:
         t.penup()
         t.goto(int(answer_row['x']), int(answer_row['y']))
         t.write(answer_state)
+    
+    elif answer_state == 'Exit':
+        break
 
 
 
